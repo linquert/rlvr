@@ -1,0 +1,191 @@
+{
+  "basic_navigation": {
+    "passed": 6,
+    "failed": 0,
+    "details": [
+      {
+        "action": "MOVE N",
+        "description": "Move north",
+        "passed": true,
+        "message": "Moved to (1, 0)"
+      },
+      {
+        "action": "TURN RIGHT",
+        "description": "Turn right",
+        "passed": true,
+        "message": "Now facing 90\u00b0"
+      },
+      {
+        "action": "MOVE FORWARD",
+        "description": "Move in facing direction",
+        "passed": true,
+        "message": "Moved to (2, 0)"
+      },
+      {
+        "action": "MOVE E",
+        "description": "Move east",
+        "passed": true,
+        "message": "Moved to (3, 0)"
+      },
+      {
+        "action": "TURN LEFT",
+        "description": "Turn left",
+        "passed": true,
+        "message": "Now facing 0\u00b0"
+      },
+      {
+        "action": "MOVE S",
+        "description": "Move south",
+        "passed": true,
+        "message": "Moved to (3, 1)"
+      }
+    ]
+  },
+  "rule_discovery": {
+    "rules_discovered": 1,
+    "details": [
+      {
+        "action": "LOOK",
+        "description": "Should provide hint about tree",
+        "rule_discovered": null,
+        "message": "You are standing on TREE at (5, 3).\nFacing: 0\u00b0\n\nAdjacent tiles:\n  NW: GRASS (.)\n  N: GRASS (.)\n  NE: GRASS (.)\n  W: GRASS (.)\n  E: GRASS (.)\n  SW: GRASS (.)\n  S: GRASS (.)\n  SE: GRASS (.)\n\nHint: Trees seem sturdy..."
+      },
+      {
+        "action": "CLIMB",
+        "description": "Should discover tree climb mechanic",
+        "rule_discovered": "tree_climb",
+        "message": "Climbed tree and jumped to (5, 0)!"
+      }
+    ],
+    "total_discovered": 1
+  },
+  "spatial_reasoning": {
+    "scenarios": [
+      {
+        "name": "Obstacle avoidance",
+        "description": "Navigate to (10,5) with obstacles in direct path",
+        "success": false
+      },
+      {
+        "name": "Angle calculation",
+        "description": "Use non-cardinal angles",
+        "success": true
+      }
+    ]
+  },
+  "macro_composition": {
+    "passed": 4,
+    "failed": 0,
+    "details": [
+      {
+        "name": "Simple macro",
+        "action": "MACRO [MOVE E; MOVE E; MOVE S]",
+        "expected": true,
+        "actual": true,
+        "passed": true,
+        "message": "MACRO completed:\nMOVE E: Moved to (2, 1)\nMOVE E: Moved to (3, 1)\nMOVE S: Moved to (3, 2)"
+      },
+      {
+        "name": "Complex macro with turns",
+        "action": "MACRO [MOVE N; TURN RIGHT; MOVE FORWARD; TURN LEFT]",
+        "expected": true,
+        "actual": true,
+        "passed": true,
+        "message": "MACRO completed:\nMOVE N: Moved to (3, 1)\nTURN RIGHT: Now facing 90\u00b0\nMOVE FORWARD: Moved to (4, 1)\nTURN LEFT: Now facing 0\u00b0"
+      },
+      {
+        "name": "Patrol pattern",
+        "action": "PATROL [MOVE E; TURN RIGHT; MOVE S; TURN LEFT] 2",
+        "expected": true,
+        "actual": true,
+        "passed": true,
+        "message": "PATROL completed 2 iterations"
+      },
+      {
+        "name": "Macro with failure",
+        "action": "MACRO [MOVE N; MOVE N; MOVE N; MOVE N; MOVE N; MOVE N]",
+        "expected": false,
+        "actual": false,
+        "passed": true,
+        "message": "MACRO stopped on failure:\nMOVE N: Moved to (6, 2)\nMOVE N: Moved to (6, 1)\nMOVE N: Moved to (6, 0)\nMOVE N: Cannot move outside map boundaries!"
+      }
+    ]
+  },
+  "failure_recovery": {
+    "scenarios": [
+      {
+        "name": "Boundary collision",
+        "failures_encountered": 1,
+        "recovered": true
+      },
+      {
+        "name": "Obstacle collision",
+        "failures_encountered": 0,
+        "recovered": true
+      },
+      {
+        "name": "Invalid command",
+        "failures_encountered": 1,
+        "recovered": true
+      }
+    ],
+    "recovery_rate": 66.66666666666666
+  },
+  "optimal_pathfinding": {
+    "description": "Test optimal pathfinding to goal",
+    "goal_position": [
+      18,
+      13
+    ],
+    "start_position": [
+      1,
+      1
+    ],
+    "minimum_moves_estimate": 25,
+    "note": "Requires discovering river flow, tree climb, or hook mechanics"
+  },
+  "context_memory": {
+    "initial_position": [
+      1,
+      1
+    ],
+    "final_position": [
+      6,
+      3
+    ],
+    "sequence_length": 9,
+    "expected_position": [
+      8,
+      3
+    ],
+    "position_correct": false
+  },
+  "instruction_compliance": {
+    "compliance_rate": 100.0,
+    "details": [
+      {
+        "instruction": "Move to position (5, 3) using cardinal directions only",
+        "max_moves_allowed": 6,
+        "actions_executed": [
+          "MOVE E",
+          "MOVE E",
+          "MOVE E",
+          "MOVE E",
+          "MOVE S",
+          "MOVE S"
+        ],
+        "valid": true
+      },
+      {
+        "instruction": "Turn to face East (90\u00b0) then move forward twice",
+        "max_moves_allowed": 3,
+        "actions_executed": [
+          "TURN 90",
+          "MOVE FORWARD",
+          "MOVE FORWARD"
+        ],
+        "valid": true
+      }
+    ]
+  }
+}

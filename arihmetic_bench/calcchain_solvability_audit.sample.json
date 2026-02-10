@@ -1,0 +1,623 @@
+{
+  "meta": {
+    "samples_per_combo": 1,
+    "seed": 42,
+    "max_nodes": 8000,
+    "abs_factor": 10,
+    "abs_floor": 2000,
+    "structures": [
+      "elliptic_curve",
+      "modular_sequence",
+      "fibonacci_variant",
+      "prime_constellation",
+      "continued_fraction",
+      "topological_invariant",
+      "fermat_little_theorem",
+      "quadratic_residue"
+    ],
+    "difficulties": [
+      "easy",
+      "medium",
+      "hard",
+      "expert"
+    ]
+  },
+  "by_combo": {
+    "elliptic_curve:easy": {
+      "structure": "elliptic_curve",
+      "difficulty": "easy",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 78.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "elliptic_curve:medium": {
+      "structure": "elliptic_curve",
+      "difficulty": "medium",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 77.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "elliptic_curve:hard": {
+      "structure": "elliptic_curve",
+      "difficulty": "hard",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 156.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "elliptic_curve:expert": {
+      "structure": "elliptic_curve",
+      "difficulty": "expert",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 161.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "modular_sequence:easy": {
+      "structure": "modular_sequence",
+      "difficulty": "easy",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 84.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "modular_sequence:medium": {
+      "structure": "modular_sequence",
+      "difficulty": "medium",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 137.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "modular_sequence:hard": {
+      "structure": "modular_sequence",
+      "difficulty": "hard",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 171.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "modular_sequence:expert": {
+      "structure": "modular_sequence",
+      "difficulty": "expert",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 130.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "fibonacci_variant:easy": {
+      "structure": "fibonacci_variant",
+      "difficulty": "easy",
+      "samples": 1,
+      "solvable": 0,
+      "unsat": 0,
+      "unknown": 1,
+      "avg_nodes": 8001.0,
+      "unsat_examples": [],
+      "unknown_examples": [
+        {
+          "reason": "node_cutoff",
+          "target": 150,
+          "numbers": [
+            1,
+            4,
+            3,
+            1,
+            6,
+            2,
+            3,
+            0,
+            2
+          ],
+          "operators": [
+            "+",
+            "-",
+            "*",
+            "//",
+            "%",
+            "**",
+            "abs",
+            "neg"
+          ],
+          "min_steps": 6,
+          "max_steps": 6,
+          "structure_params": {
+            "a": 1,
+            "b": 2,
+            "c": 0,
+            "f0": 3,
+            "f1": 4,
+            "n": 6
+          }
+        }
+      ]
+    },
+    "fibonacci_variant:medium": {
+      "structure": "fibonacci_variant",
+      "difficulty": "medium",
+      "samples": 1,
+      "solvable": 0,
+      "unsat": 0,
+      "unknown": 1,
+      "avg_nodes": 8001.0,
+      "unsat_examples": [],
+      "unknown_examples": [
+        {
+          "reason": "node_cutoff",
+          "target": 30791,
+          "numbers": [
+            8,
+            2,
+            2,
+            3,
+            3,
+            2,
+            1,
+            3,
+            2
+          ],
+          "operators": [
+            "+",
+            "-",
+            "*",
+            "//",
+            "%",
+            "**",
+            "abs",
+            "neg",
+            "sqrt",
+            "log2",
+            "gcd",
+            "lcm"
+          ],
+          "min_steps": 8,
+          "max_steps": 8,
+          "structure_params": {
+            "a": 3,
+            "b": 2,
+            "c": 2,
+            "f0": 2,
+            "f1": 3,
+            "n": 8
+          }
+        }
+      ]
+    },
+    "fibonacci_variant:hard": {
+      "structure": "fibonacci_variant",
+      "difficulty": "hard",
+      "samples": 1,
+      "solvable": 0,
+      "unsat": 0,
+      "unknown": 1,
+      "avg_nodes": 8001.0,
+      "unsat_examples": [],
+      "unknown_examples": [
+        {
+          "reason": "node_cutoff",
+          "target": 854889,
+          "numbers": [
+            3,
+            5,
+            6,
+            7,
+            2,
+            1,
+            10,
+            2,
+            6
+          ],
+          "operators": [
+            "+",
+            "-",
+            "*",
+            "//",
+            "%",
+            "**",
+            "abs",
+            "neg",
+            "sqrt",
+            "log2",
+            "gcd",
+            "lcm"
+          ],
+          "min_steps": 10,
+          "max_steps": 10,
+          "structure_params": {
+            "a": 2,
+            "b": 5,
+            "c": 7,
+            "f0": 6,
+            "f1": 6,
+            "n": 10
+          }
+        }
+      ]
+    },
+    "fibonacci_variant:expert": {
+      "structure": "fibonacci_variant",
+      "difficulty": "expert",
+      "samples": 1,
+      "solvable": 0,
+      "unsat": 0,
+      "unknown": 1,
+      "avg_nodes": 8001.0,
+      "unsat_examples": [],
+      "unknown_examples": [
+        {
+          "reason": "node_cutoff",
+          "target": 3301,
+          "numbers": [
+            1,
+            3,
+            6,
+            4,
+            2,
+            2,
+            3,
+            7,
+            6
+          ],
+          "operators": [
+            "+",
+            "-",
+            "*",
+            "//",
+            "%",
+            "**",
+            "abs",
+            "neg",
+            "sqrt",
+            "log2",
+            "gcd",
+            "lcm"
+          ],
+          "min_steps": 6,
+          "max_steps": 10,
+          "structure_params": {
+            "a": 2,
+            "b": 4,
+            "c": 7,
+            "f0": 3,
+            "f1": 6,
+            "n": 6
+          }
+        }
+      ]
+    },
+    "prime_constellation:easy": {
+      "structure": "prime_constellation",
+      "difficulty": "easy",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 102.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "prime_constellation:medium": {
+      "structure": "prime_constellation",
+      "difficulty": "medium",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 109.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "prime_constellation:hard": {
+      "structure": "prime_constellation",
+      "difficulty": "hard",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 148.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "prime_constellation:expert": {
+      "structure": "prime_constellation",
+      "difficulty": "expert",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 139.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "continued_fraction:easy": {
+      "structure": "continued_fraction",
+      "difficulty": "easy",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 188.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "continued_fraction:medium": {
+      "structure": "continued_fraction",
+      "difficulty": "medium",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 1167.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "continued_fraction:hard": {
+      "structure": "continued_fraction",
+      "difficulty": "hard",
+      "samples": 1,
+      "solvable": 0,
+      "unsat": 0,
+      "unknown": 1,
+      "avg_nodes": 8001.0,
+      "unsat_examples": [],
+      "unknown_examples": [
+        {
+          "reason": "node_cutoff",
+          "target": 273,
+          "numbers": [
+            2,
+            6,
+            1,
+            2,
+            2,
+            1,
+            1,
+            6,
+            3
+          ],
+          "operators": [
+            "+",
+            "-",
+            "*",
+            "//",
+            "%",
+            "**",
+            "abs",
+            "neg"
+          ],
+          "min_steps": 5,
+          "max_steps": 9,
+          "structure_params": {
+            "cf_coefficients": [
+              6,
+              2,
+              1,
+              6,
+              2
+            ],
+            "convergent_num": 273,
+            "convergent_den": 43
+          }
+        }
+      ]
+    },
+    "continued_fraction:expert": {
+      "structure": "continued_fraction",
+      "difficulty": "expert",
+      "samples": 1,
+      "solvable": 0,
+      "unsat": 0,
+      "unknown": 1,
+      "avg_nodes": 8001.0,
+      "unsat_examples": [],
+      "unknown_examples": [
+        {
+          "reason": "node_cutoff",
+          "target": 23479,
+          "numbers": [
+            1,
+            7,
+            2,
+            4,
+            3,
+            1,
+            12,
+            8,
+            8
+          ],
+          "operators": [
+            "+",
+            "-",
+            "*",
+            "//",
+            "%",
+            "**",
+            "abs",
+            "neg"
+          ],
+          "min_steps": 5,
+          "max_steps": 9,
+          "structure_params": {
+            "cf_coefficients": [
+              12,
+              8,
+              4,
+              8,
+              7
+            ],
+            "convergent_num": 23479,
+            "convergent_den": 1937
+          }
+        }
+      ]
+    },
+    "topological_invariant:easy": {
+      "structure": "topological_invariant",
+      "difficulty": "easy",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 2.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "topological_invariant:medium": {
+      "structure": "topological_invariant",
+      "difficulty": "medium",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 3.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "topological_invariant:hard": {
+      "structure": "topological_invariant",
+      "difficulty": "hard",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 4.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "topological_invariant:expert": {
+      "structure": "topological_invariant",
+      "difficulty": "expert",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 2.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "fermat_little_theorem:easy": {
+      "structure": "fermat_little_theorem",
+      "difficulty": "easy",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 83.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "fermat_little_theorem:medium": {
+      "structure": "fermat_little_theorem",
+      "difficulty": "medium",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 143.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "fermat_little_theorem:hard": {
+      "structure": "fermat_little_theorem",
+      "difficulty": "hard",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 151.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "fermat_little_theorem:expert": {
+      "structure": "fermat_little_theorem",
+      "difficulty": "expert",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 157.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "quadratic_residue:easy": {
+      "structure": "quadratic_residue",
+      "difficulty": "easy",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 141.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "quadratic_residue:medium": {
+      "structure": "quadratic_residue",
+      "difficulty": "medium",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 107.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "quadratic_residue:hard": {
+      "structure": "quadratic_residue",
+      "difficulty": "hard",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 140.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    },
+    "quadratic_residue:expert": {
+      "structure": "quadratic_residue",
+      "difficulty": "expert",
+      "samples": 1,
+      "solvable": 1,
+      "unsat": 0,
+      "unknown": 0,
+      "avg_nodes": 152.0,
+      "unsat_examples": [],
+      "unknown_examples": []
+    }
+  },
+  "summary": {
+    "total_tasks": 32,
+    "solvable": 26,
+    "unsat": 0,
+    "unknown": 6,
+    "solvable_rate": 0.8125,
+    "unsat_rate": 0.0,
+    "unknown_rate": 0.1875,
+    "avg_nodes_per_task": 1623.0625
+  }
+}

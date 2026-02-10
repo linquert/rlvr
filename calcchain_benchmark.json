@@ -1,0 +1,2400 @@
+[
+  {
+    "id": "elliptic_curve_0",
+    "structure": "elliptic_curve",
+    "difficulty": "easy",
+    "numbers": [
+      11,
+      2,
+      3,
+      3,
+      4,
+      1,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 5,
+    "min_steps": 3,
+    "max_steps": 6,
+    "structure_params": {
+      "a": 1,
+      "b": 3,
+      "p": 11,
+      "x": 4
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [11, 2, 3, 3, 4, 1, 1]\nTarget value: 5\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 6 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 6 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "elliptic_curve_1",
+    "structure": "elliptic_curve",
+    "difficulty": "easy",
+    "numbers": [
+      1,
+      11,
+      1,
+      4,
+      2,
+      3,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 3,
+    "min_steps": 3,
+    "max_steps": 6,
+    "structure_params": {
+      "a": 1,
+      "b": 1,
+      "p": 11,
+      "x": 4
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 11, 1, 4, 2, 3, 1]\nTarget value: 3\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 6 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 6 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "elliptic_curve_2",
+    "structure": "elliptic_curve",
+    "difficulty": "medium",
+    "numbers": [
+      1,
+      43,
+      2,
+      7,
+      19,
+      4,
+      3
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 30,
+    "min_steps": 3,
+    "max_steps": 8,
+    "structure_params": {
+      "a": 7,
+      "b": 4,
+      "p": 43,
+      "x": 19
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 43, 2, 7, 19, 4, 3]\nTarget value: 30\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 8 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 8 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "elliptic_curve_3",
+    "structure": "elliptic_curve",
+    "difficulty": "medium",
+    "numbers": [
+      2,
+      37,
+      5,
+      3,
+      11,
+      3,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 20,
+    "min_steps": 3,
+    "max_steps": 8,
+    "structure_params": {
+      "a": 5,
+      "b": 3,
+      "p": 37,
+      "x": 11
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 37, 5, 3, 11, 3, 1]\nTarget value: 20\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 8 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 8 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "elliptic_curve_4",
+    "structure": "elliptic_curve",
+    "difficulty": "hard",
+    "numbers": [
+      14,
+      3,
+      10,
+      2,
+      59,
+      18,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 8,
+    "min_steps": 3,
+    "max_steps": 10,
+    "structure_params": {
+      "a": 10,
+      "b": 14,
+      "p": 59,
+      "x": 18
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [14, 3, 10, 2, 59, 18, 1]\nTarget value: 8\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 10 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 10 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "elliptic_curve_5",
+    "structure": "elliptic_curve",
+    "difficulty": "hard",
+    "numbers": [
+      67,
+      29,
+      2,
+      9,
+      3,
+      15,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 9,
+    "min_steps": 3,
+    "max_steps": 10,
+    "structure_params": {
+      "a": 9,
+      "b": 15,
+      "p": 67,
+      "x": 29
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [67, 29, 2, 9, 3, 15, 1]\nTarget value: 9\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 10 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 10 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "elliptic_curve_6",
+    "structure": "elliptic_curve",
+    "difficulty": "expert",
+    "numbers": [
+      47,
+      1,
+      3,
+      2,
+      15,
+      34,
+      8
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 13,
+    "min_steps": 3,
+    "max_steps": 10,
+    "structure_params": {
+      "a": 15,
+      "b": 8,
+      "p": 47,
+      "x": 34
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [47, 1, 3, 2, 15, 34, 8]\nTarget value: 13\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 10 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 10 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "elliptic_curve_7",
+    "structure": "elliptic_curve",
+    "difficulty": "expert",
+    "numbers": [
+      3,
+      15,
+      61,
+      2,
+      15,
+      1,
+      10
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 11,
+    "min_steps": 3,
+    "max_steps": 10,
+    "structure_params": {
+      "a": 15,
+      "b": 10,
+      "p": 61,
+      "x": 15
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [3, 15, 61, 2, 15, 1, 10]\nTarget value: 11\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 10 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 10 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "modular_sequence_0",
+    "structure": "modular_sequence",
+    "difficulty": "easy",
+    "numbers": [
+      3,
+      1,
+      1,
+      13,
+      1,
+      2,
+      3,
+      0
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 5,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "n": 3,
+      "k": 2,
+      "m": 13,
+      "coefficients": [
+        3,
+        1,
+        1
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [3, 1, 1, 13, 1, 2, 3, 0]\nTarget value: 5\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "modular_sequence_1",
+    "structure": "modular_sequence",
+    "difficulty": "easy",
+    "numbers": [
+      1,
+      2,
+      1,
+      2,
+      0,
+      7,
+      2,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 3,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "n": 2,
+      "k": 2,
+      "m": 7,
+      "coefficients": [
+        1,
+        2,
+        2
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 2, 1, 2, 0, 7, 2, 2]\nTarget value: 3\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "modular_sequence_2",
+    "structure": "modular_sequence",
+    "difficulty": "medium",
+    "numbers": [
+      3,
+      6,
+      23,
+      2,
+      0,
+      1,
+      3,
+      2,
+      4
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 13,
+    "min_steps": 3,
+    "max_steps": 7,
+    "structure_params": {
+      "n": 6,
+      "k": 3,
+      "m": 23,
+      "coefficients": [
+        4,
+        2,
+        3,
+        2
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [3, 6, 23, 2, 0, 1, 3, 2, 4]\nTarget value: 13\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "modular_sequence_3",
+    "structure": "modular_sequence",
+    "difficulty": "medium",
+    "numbers": [
+      1,
+      1,
+      23,
+      4,
+      4,
+      1,
+      1,
+      0,
+      3
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 1,
+    "min_steps": 3,
+    "max_steps": 7,
+    "structure_params": {
+      "n": 4,
+      "k": 3,
+      "m": 23,
+      "coefficients": [
+        4,
+        1,
+        1,
+        1
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 1, 23, 4, 4, 1, 1, 0, 3]\nTarget value: 1\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "modular_sequence_4",
+    "structure": "modular_sequence",
+    "difficulty": "hard",
+    "numbers": [
+      4,
+      7,
+      0,
+      12,
+      4,
+      8,
+      2,
+      6,
+      1,
+      37
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 34,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "n": 12,
+      "k": 4,
+      "m": 37,
+      "coefficients": [
+        4,
+        6,
+        8,
+        2,
+        7
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [4, 7, 0, 12, 4, 8, 2, 6, 1, 37]\nTarget value: 34\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "modular_sequence_5",
+    "structure": "modular_sequence",
+    "difficulty": "hard",
+    "numbers": [
+      7,
+      2,
+      7,
+      6,
+      0,
+      7,
+      4,
+      31,
+      1,
+      4
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 16,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "n": 7,
+      "k": 4,
+      "m": 31,
+      "coefficients": [
+        2,
+        7,
+        7,
+        4,
+        6
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [7, 2, 7, 6, 0, 7, 4, 31, 1, 4]\nTarget value: 16\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "modular_sequence_6",
+    "structure": "modular_sequence",
+    "difficulty": "expert",
+    "numbers": [
+      6,
+      2,
+      8,
+      1,
+      0,
+      6,
+      4,
+      37,
+      7,
+      4
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 24,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "n": 7,
+      "k": 4,
+      "m": 37,
+      "coefficients": [
+        8,
+        6,
+        2,
+        6,
+        4
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [6, 2, 8, 1, 0, 6, 4, 37, 7, 4]\nTarget value: 24\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "modular_sequence_7",
+    "structure": "modular_sequence",
+    "difficulty": "expert",
+    "numbers": [
+      2,
+      8,
+      6,
+      5,
+      1,
+      37,
+      8,
+      6,
+      0,
+      4
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 9,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "n": 6,
+      "k": 4,
+      "m": 37,
+      "coefficients": [
+        5,
+        8,
+        2,
+        8,
+        6
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 8, 6, 5, 1, 37, 8, 6, 0, 4]\nTarget value: 9\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fibonacci_variant_0",
+    "structure": "fibonacci_variant",
+    "difficulty": "easy",
+    "numbers": [
+      6,
+      2,
+      4,
+      2,
+      2,
+      1,
+      3,
+      2,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 794,
+    "min_steps": 6,
+    "max_steps": 6,
+    "structure_params": {
+      "a": 2,
+      "b": 2,
+      "c": 2,
+      "f0": 2,
+      "f1": 4,
+      "n": 6
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [6, 2, 4, 2, 2, 1, 3, 2, 2]\nTarget value: 794\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 6 steps, maximum 6 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 6 and 6 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fibonacci_variant_1",
+    "structure": "fibonacci_variant",
+    "difficulty": "easy",
+    "numbers": [
+      1,
+      2,
+      0,
+      0,
+      1,
+      2,
+      3,
+      4,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 6,
+    "min_steps": 4,
+    "max_steps": 6,
+    "structure_params": {
+      "a": 1,
+      "b": 1,
+      "c": 0,
+      "f0": 0,
+      "f1": 2,
+      "n": 4
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 2, 0, 0, 1, 2, 3, 4, 1]\nTarget value: 6\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 4 steps, maximum 6 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 4 and 6 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fibonacci_variant_2",
+    "structure": "fibonacci_variant",
+    "difficulty": "medium",
+    "numbers": [
+      1,
+      6,
+      8,
+      1,
+      3,
+      3,
+      1,
+      2,
+      5
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 2926,
+    "min_steps": 8,
+    "max_steps": 8,
+    "structure_params": {
+      "a": 1,
+      "b": 3,
+      "c": 1,
+      "f0": 5,
+      "f1": 6,
+      "n": 8
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 6, 8, 1, 3, 3, 1, 2, 5]\nTarget value: 2926\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 8 steps, maximum 8 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 8 and 8 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fibonacci_variant_3",
+    "structure": "fibonacci_variant",
+    "difficulty": "medium",
+    "numbers": [
+      4,
+      2,
+      2,
+      2,
+      3,
+      3,
+      5,
+      1,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 291,
+    "min_steps": 5,
+    "max_steps": 8,
+    "structure_params": {
+      "a": 2,
+      "b": 2,
+      "c": 3,
+      "f0": 4,
+      "f1": 2,
+      "n": 5
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [4, 2, 2, 2, 3, 3, 5, 1, 2]\nTarget value: 291\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 5 steps, maximum 8 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 5 and 8 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fibonacci_variant_4",
+    "structure": "fibonacci_variant",
+    "difficulty": "hard",
+    "numbers": [
+      2,
+      1,
+      7,
+      9,
+      5,
+      5,
+      3,
+      3,
+      3
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 6613715,
+    "min_steps": 9,
+    "max_steps": 10,
+    "structure_params": {
+      "a": 5,
+      "b": 3,
+      "c": 7,
+      "f0": 3,
+      "f1": 5,
+      "n": 9
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 1, 7, 9, 5, 5, 3, 3, 3]\nTarget value: 6613715\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 9 steps, maximum 10 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 9 and 10 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fibonacci_variant_5",
+    "structure": "fibonacci_variant",
+    "difficulty": "hard",
+    "numbers": [
+      6,
+      3,
+      9,
+      2,
+      3,
+      3,
+      2,
+      1,
+      5
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 61506,
+    "min_steps": 9,
+    "max_steps": 10,
+    "structure_params": {
+      "a": 2,
+      "b": 3,
+      "c": 3,
+      "f0": 5,
+      "f1": 6,
+      "n": 9
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [6, 3, 9, 2, 3, 3, 2, 1, 5]\nTarget value: 61506\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 9 steps, maximum 10 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 9 and 10 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fibonacci_variant_6",
+    "structure": "fibonacci_variant",
+    "difficulty": "expert",
+    "numbers": [
+      8,
+      7,
+      10,
+      5,
+      1,
+      3,
+      4,
+      7,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 81640035,
+    "min_steps": 10,
+    "max_steps": 10,
+    "structure_params": {
+      "a": 5,
+      "b": 4,
+      "c": 7,
+      "f0": 7,
+      "f1": 8,
+      "n": 10
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [8, 7, 10, 5, 1, 3, 4, 7, 2]\nTarget value: 81640035\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 10 steps, maximum 10 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 10 and 10 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fibonacci_variant_7",
+    "structure": "fibonacci_variant",
+    "difficulty": "expert",
+    "numbers": [
+      6,
+      2,
+      10,
+      2,
+      1,
+      6,
+      4,
+      1,
+      3
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 5579603,
+    "min_steps": 10,
+    "max_steps": 10,
+    "structure_params": {
+      "a": 4,
+      "b": 2,
+      "c": 1,
+      "f0": 6,
+      "f1": 6,
+      "n": 10
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [6, 2, 10, 2, 1, 6, 4, 1, 3]\nTarget value: 5579603\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 10 steps, maximum 10 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 10 and 10 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "prime_constellation_0",
+    "structure": "prime_constellation",
+    "difficulty": "easy",
+    "numbers": [
+      2,
+      1,
+      29,
+      23,
+      1,
+      19,
+      3,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%"
+    ],
+    "target": 43,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "primes_used": [
+        19,
+        23,
+        29
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 1, 29, 23, 1, 19, 3, 2]\nTarget value: 43\nAvailable operators: ['+', '-', '*', '//', '%']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "prime_constellation_1",
+    "structure": "prime_constellation",
+    "difficulty": "easy",
+    "numbers": [
+      2,
+      17,
+      3,
+      23,
+      1,
+      1,
+      2,
+      19
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%"
+    ],
+    "target": 25,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "primes_used": [
+        17,
+        19,
+        23
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 17, 3, 23, 1, 1, 2, 19]\nTarget value: 25\nAvailable operators: ['+', '-', '*', '//', '%']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "prime_constellation_2",
+    "structure": "prime_constellation",
+    "difficulty": "medium",
+    "numbers": [
+      23,
+      1,
+      1,
+      2,
+      29,
+      3,
+      31,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 53,
+    "min_steps": 3,
+    "max_steps": 7,
+    "structure_params": {
+      "primes_used": [
+        23,
+        29,
+        31
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [23, 1, 1, 2, 29, 3, 31, 2]\nTarget value: 53\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "prime_constellation_3",
+    "structure": "prime_constellation",
+    "difficulty": "medium",
+    "numbers": [
+      13,
+      17,
+      2,
+      3,
+      1,
+      1,
+      2,
+      11
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 25,
+    "min_steps": 3,
+    "max_steps": 7,
+    "structure_params": {
+      "primes_used": [
+        11,
+        13,
+        17
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [13, 17, 2, 3, 1, 1, 2, 11]\nTarget value: 25\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "prime_constellation_4",
+    "structure": "prime_constellation",
+    "difficulty": "hard",
+    "numbers": [
+      2,
+      59,
+      3,
+      1,
+      47,
+      43,
+      2,
+      53,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 4,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "primes_used": [
+        43,
+        47,
+        53,
+        59
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 59, 3, 1, 47, 43, 2, 53, 1]\nTarget value: 4\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "prime_constellation_5",
+    "structure": "prime_constellation",
+    "difficulty": "hard",
+    "numbers": [
+      2,
+      43,
+      47,
+      41,
+      1,
+      53,
+      2,
+      1,
+      3
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 8,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "primes_used": [
+        41,
+        43,
+        47,
+        53
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 43, 47, 41, 1, 53, 2, 1, 3]\nTarget value: 8\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "prime_constellation_6",
+    "structure": "prime_constellation",
+    "difficulty": "expert",
+    "numbers": [
+      1,
+      1,
+      2,
+      3,
+      67,
+      53,
+      2,
+      61,
+      59
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 12,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "primes_used": [
+        53,
+        59,
+        61,
+        67
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 1, 2, 3, 67, 53, 2, 61, 59]\nTarget value: 12\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "prime_constellation_7",
+    "structure": "prime_constellation",
+    "difficulty": "expert",
+    "numbers": [
+      1,
+      47,
+      1,
+      3,
+      59,
+      2,
+      53,
+      61,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 2,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "primes_used": [
+        47,
+        53,
+        59,
+        61
+      ]
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 47, 1, 3, 59, 2, 53, 61, 2]\nTarget value: 2\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "continued_fraction_0",
+    "structure": "continued_fraction",
+    "difficulty": "easy",
+    "numbers": [
+      2,
+      1,
+      1,
+      4,
+      3,
+      3,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 16,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "cf_coefficients": [
+        1,
+        4,
+        3
+      ],
+      "convergent_num": 16,
+      "convergent_den": 13
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 1, 1, 4, 3, 3, 1]\nTarget value: 16\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "continued_fraction_1",
+    "structure": "continued_fraction",
+    "difficulty": "easy",
+    "numbers": [
+      4,
+      1,
+      4,
+      3,
+      2,
+      2,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 38,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "cf_coefficients": [
+        2,
+        4,
+        4
+      ],
+      "convergent_num": 38,
+      "convergent_den": 17
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [4, 1, 4, 3, 2, 2, 1]\nTarget value: 38\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "continued_fraction_2",
+    "structure": "continued_fraction",
+    "difficulty": "medium",
+    "numbers": [
+      2,
+      1,
+      1,
+      3,
+      6,
+      1,
+      5,
+      3
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 142,
+    "min_steps": 4,
+    "max_steps": 7,
+    "structure_params": {
+      "cf_coefficients": [
+        6,
+        1,
+        3,
+        5
+      ],
+      "convergent_num": 142,
+      "convergent_den": 21
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 1, 1, 3, 6, 1, 5, 3]\nTarget value: 142\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 4 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 4 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "continued_fraction_3",
+    "structure": "continued_fraction",
+    "difficulty": "medium",
+    "numbers": [
+      1,
+      2,
+      4,
+      3,
+      2,
+      1,
+      6,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 125,
+    "min_steps": 4,
+    "max_steps": 7,
+    "structure_params": {
+      "cf_coefficients": [
+        4,
+        2,
+        6,
+        2
+      ],
+      "convergent_num": 125,
+      "convergent_den": 28
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 2, 4, 3, 2, 1, 6, 2]\nTarget value: 125\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 4 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 4 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "continued_fraction_4",
+    "structure": "continued_fraction",
+    "difficulty": "hard",
+    "numbers": [
+      3,
+      1,
+      6,
+      2,
+      5,
+      7,
+      1,
+      3,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 995,
+    "min_steps": 5,
+    "max_steps": 9,
+    "structure_params": {
+      "cf_coefficients": [
+        5,
+        7,
+        1,
+        3,
+        6
+      ],
+      "convergent_num": 995,
+      "convergent_den": 194
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [3, 1, 6, 2, 5, 7, 1, 3, 1]\nTarget value: 995\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 5 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 5 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "continued_fraction_5",
+    "structure": "continued_fraction",
+    "difficulty": "hard",
+    "numbers": [
+      1,
+      8,
+      5,
+      2,
+      4,
+      1,
+      6,
+      3,
+      6
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 6511,
+    "min_steps": 5,
+    "max_steps": 9,
+    "structure_params": {
+      "cf_coefficients": [
+        6,
+        4,
+        8,
+        6,
+        5
+      ],
+      "convergent_num": 6511,
+      "convergent_den": 1043
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 8, 5, 2, 4, 1, 6, 3, 6]\nTarget value: 6511\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 5 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 5 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "continued_fraction_6",
+    "structure": "continued_fraction",
+    "difficulty": "expert",
+    "numbers": [
+      1,
+      7,
+      3,
+      1,
+      6,
+      2,
+      6,
+      5,
+      4
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 5716,
+    "min_steps": 5,
+    "max_steps": 9,
+    "structure_params": {
+      "cf_coefficients": [
+        4,
+        5,
+        6,
+        7,
+        6
+      ],
+      "convergent_num": 5716,
+      "convergent_den": 1363
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 7, 3, 1, 6, 2, 6, 5, 4]\nTarget value: 5716\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 5 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 5 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "continued_fraction_7",
+    "structure": "continued_fraction",
+    "difficulty": "expert",
+    "numbers": [
+      1,
+      1,
+      12,
+      6,
+      2,
+      7,
+      6,
+      7,
+      3
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 23041,
+    "min_steps": 5,
+    "max_steps": 9,
+    "structure_params": {
+      "cf_coefficients": [
+        12,
+        7,
+        6,
+        6,
+        7
+      ],
+      "convergent_num": 23041,
+      "convergent_den": 1898
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 1, 12, 6, 2, 7, 6, 7, 3]\nTarget value: 23041\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 5 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 5 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "topological_invariant_0",
+    "structure": "topological_invariant",
+    "difficulty": "easy",
+    "numbers": [
+      4,
+      4,
+      1,
+      6,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%"
+    ],
+    "target": 2,
+    "min_steps": 2,
+    "max_steps": 4,
+    "structure_params": {
+      "euler_char": 2,
+      "description": "difficulty=easy"
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [4, 4, 1, 6, 2]\nTarget value: 2\nAvailable operators: ['+', '-', '*', '//', '%']\nStep constraints: minimum 2 steps, maximum 4 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 2 and 4 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "topological_invariant_1",
+    "structure": "topological_invariant",
+    "difficulty": "easy",
+    "numbers": [
+      6,
+      4,
+      1,
+      2,
+      4
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%"
+    ],
+    "target": 2,
+    "min_steps": 2,
+    "max_steps": 4,
+    "structure_params": {
+      "euler_char": 2,
+      "description": "difficulty=easy"
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [6, 4, 1, 2, 4]\nTarget value: 2\nAvailable operators: ['+', '-', '*', '//', '%']\nStep constraints: minimum 2 steps, maximum 4 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 2 and 4 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "topological_invariant_2",
+    "structure": "topological_invariant",
+    "difficulty": "medium",
+    "numbers": [
+      14,
+      2,
+      26,
+      8,
+      3,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": -4,
+    "min_steps": 2,
+    "max_steps": 6,
+    "structure_params": {
+      "euler_char": -4,
+      "description": "difficulty=medium"
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [14, 2, 26, 8, 3, 1]\nTarget value: -4\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 2 steps, maximum 6 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 2 and 6 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "topological_invariant_3",
+    "structure": "topological_invariant",
+    "difficulty": "medium",
+    "numbers": [
+      8,
+      2,
+      7,
+      23,
+      1,
+      5
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": -8,
+    "min_steps": 2,
+    "max_steps": 6,
+    "structure_params": {
+      "euler_char": -8,
+      "description": "difficulty=medium"
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [8, 2, 7, 23, 1, 5]\nTarget value: -8\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 2 steps, maximum 6 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 2 and 6 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "topological_invariant_4",
+    "structure": "topological_invariant",
+    "difficulty": "hard",
+    "numbers": [
+      19,
+      2,
+      1,
+      17,
+      1,
+      5,
+      45
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": -9,
+    "min_steps": 2,
+    "max_steps": 8,
+    "structure_params": {
+      "euler_char": -9,
+      "description": "difficulty=hard"
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [19, 2, 1, 17, 1, 5, 45]\nTarget value: -9\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 2 steps, maximum 8 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 2 and 8 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "topological_invariant_5",
+    "structure": "topological_invariant",
+    "difficulty": "hard",
+    "numbers": [
+      5,
+      23,
+      2,
+      26,
+      59,
+      2,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": -10,
+    "min_steps": 2,
+    "max_steps": 8,
+    "structure_params": {
+      "euler_char": -10,
+      "description": "difficulty=hard"
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [5, 23, 2, 26, 59, 2, 1]\nTarget value: -10\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 2 steps, maximum 8 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 2 and 8 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "topological_invariant_6",
+    "structure": "topological_invariant",
+    "difficulty": "expert",
+    "numbers": [
+      2,
+      15,
+      2,
+      19,
+      2,
+      38,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": -4,
+    "min_steps": 2,
+    "max_steps": 8,
+    "structure_params": {
+      "euler_char": -4,
+      "description": "difficulty=expert"
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 15, 2, 19, 2, 38, 1]\nTarget value: -4\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 2 steps, maximum 8 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 2 and 8 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "topological_invariant_7",
+    "structure": "topological_invariant",
+    "difficulty": "expert",
+    "numbers": [
+      24,
+      21,
+      1,
+      5,
+      54,
+      1,
+      2
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": -9,
+    "min_steps": 2,
+    "max_steps": 8,
+    "structure_params": {
+      "euler_char": -9,
+      "description": "difficulty=expert"
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [24, 21, 1, 5, 54, 1, 2]\nTarget value: -9\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 2 steps, maximum 8 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 2 and 8 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fermat_little_theorem_0",
+    "structure": "fermat_little_theorem",
+    "difficulty": "easy",
+    "numbers": [
+      3,
+      2,
+      3,
+      1,
+      4,
+      6,
+      3,
+      7
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 3,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "a": 3,
+      "p": 7,
+      "k": 3
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [3, 2, 3, 1, 4, 6, 3, 7]\nTarget value: 3\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fermat_little_theorem_1",
+    "structure": "fermat_little_theorem",
+    "difficulty": "easy",
+    "numbers": [
+      3,
+      2,
+      5,
+      4,
+      1,
+      4,
+      3,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 4,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "a": 3,
+      "p": 5,
+      "k": 1
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [3, 2, 5, 4, 1, 4, 3, 1]\nTarget value: 4\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fermat_little_theorem_2",
+    "structure": "fermat_little_theorem",
+    "difficulty": "medium",
+    "numbers": [
+      5,
+      1,
+      3,
+      2,
+      29,
+      3,
+      28,
+      4
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 20,
+    "min_steps": 3,
+    "max_steps": 7,
+    "structure_params": {
+      "a": 5,
+      "p": 29,
+      "k": 3
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [5, 1, 3, 2, 29, 3, 28, 4]\nTarget value: 20\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fermat_little_theorem_3",
+    "structure": "fermat_little_theorem",
+    "difficulty": "medium",
+    "numbers": [
+      3,
+      30,
+      1,
+      3,
+      4,
+      4,
+      2,
+      31
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 30,
+    "min_steps": 3,
+    "max_steps": 7,
+    "structure_params": {
+      "a": 3,
+      "p": 31,
+      "k": 4
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [3, 30, 1, 3, 4, 4, 2, 31]\nTarget value: 30\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fermat_little_theorem_4",
+    "structure": "fermat_little_theorem",
+    "difficulty": "hard",
+    "numbers": [
+      4,
+      3,
+      4,
+      1,
+      41,
+      2,
+      4,
+      40
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 1,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "a": 4,
+      "p": 41,
+      "k": 4
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [4, 3, 4, 1, 41, 2, 4, 40]\nTarget value: 1\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fermat_little_theorem_5",
+    "structure": "fermat_little_theorem",
+    "difficulty": "hard",
+    "numbers": [
+      2,
+      4,
+      7,
+      1,
+      36,
+      37,
+      8,
+      3
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 36,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "a": 8,
+      "p": 37,
+      "k": 7
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 4, 7, 1, 36, 37, 8, 3]\nTarget value: 36\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fermat_little_theorem_6",
+    "structure": "fermat_little_theorem",
+    "difficulty": "expert",
+    "numbers": [
+      47,
+      4,
+      2,
+      1,
+      46,
+      3,
+      6,
+      12
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 34,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "a": 12,
+      "p": 47,
+      "k": 6
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [47, 4, 2, 1, 46, 3, 6, 12]\nTarget value: 34\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "fermat_little_theorem_7",
+    "structure": "fermat_little_theorem",
+    "difficulty": "expert",
+    "numbers": [
+      37,
+      3,
+      1,
+      2,
+      5,
+      36,
+      6,
+      4
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 1,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "a": 6,
+      "p": 37,
+      "k": 5
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [37, 3, 1, 2, 5, 36, 6, 4]\nTarget value: 1\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "quadratic_residue_0",
+    "structure": "quadratic_residue",
+    "difficulty": "easy",
+    "numbers": [
+      8,
+      17,
+      1,
+      2,
+      -1,
+      1,
+      2,
+      4,
+      3
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 12,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "a": 4,
+      "p": 17,
+      "legendre_symbol": 1,
+      "is_residue": true
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [8, 17, 1, 2, -1, 1, 2, 4, 3]\nTarget value: 12\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "quadratic_residue_1",
+    "structure": "quadratic_residue",
+    "difficulty": "easy",
+    "numbers": [
+      2,
+      1,
+      -1,
+      11,
+      1,
+      2,
+      3,
+      9,
+      5
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 14,
+    "min_steps": 3,
+    "max_steps": 5,
+    "structure_params": {
+      "a": 9,
+      "p": 11,
+      "legendre_symbol": 1,
+      "is_residue": true
+    },
+    "prompt": "CalcChain Task (Difficulty: easy)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 1, -1, 11, 1, 2, 3, 9, 5]\nTarget value: 14\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 5 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 5 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "quadratic_residue_2",
+    "structure": "quadratic_residue",
+    "difficulty": "medium",
+    "numbers": [
+      2,
+      -1,
+      23,
+      15,
+      11,
+      2,
+      3,
+      1,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 7,
+    "min_steps": 3,
+    "max_steps": 7,
+    "structure_params": {
+      "a": 15,
+      "p": 23,
+      "legendre_symbol": -1,
+      "is_residue": false
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, -1, 23, 15, 11, 2, 3, 1, 1]\nTarget value: 7\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "quadratic_residue_3",
+    "structure": "quadratic_residue",
+    "difficulty": "medium",
+    "numbers": [
+      31,
+      15,
+      2,
+      1,
+      1,
+      3,
+      3,
+      2,
+      -1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 6,
+    "min_steps": 3,
+    "max_steps": 7,
+    "structure_params": {
+      "a": 3,
+      "p": 31,
+      "legendre_symbol": -1,
+      "is_residue": false
+    },
+    "prompt": "CalcChain Task (Difficulty: medium)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [31, 15, 2, 1, 1, 3, 3, 2, -1]\nTarget value: 6\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 7 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 7 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "quadratic_residue_4",
+    "structure": "quadratic_residue",
+    "difficulty": "hard",
+    "numbers": [
+      1,
+      3,
+      -1,
+      1,
+      24,
+      2,
+      29,
+      2,
+      14
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 38,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "a": 24,
+      "p": 29,
+      "legendre_symbol": 1,
+      "is_residue": true
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [1, 3, -1, 1, 24, 2, 29, 2, 14]\nTarget value: 38\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "quadratic_residue_5",
+    "structure": "quadratic_residue",
+    "difficulty": "hard",
+    "numbers": [
+      2,
+      1,
+      3,
+      -1,
+      1,
+      10,
+      2,
+      18,
+      37
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg"
+    ],
+    "target": 28,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "a": 10,
+      "p": 37,
+      "legendre_symbol": 1,
+      "is_residue": true
+    },
+    "prompt": "CalcChain Task (Difficulty: hard)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 1, 3, -1, 1, 10, 2, 18, 37]\nTarget value: 28\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "quadratic_residue_6",
+    "structure": "quadratic_residue",
+    "difficulty": "expert",
+    "numbers": [
+      3,
+      2,
+      1,
+      1,
+      20,
+      -1,
+      11,
+      2,
+      41
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 22,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "a": 11,
+      "p": 41,
+      "legendre_symbol": -1,
+      "is_residue": false
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [3, 2, 1, 1, 20, -1, 11, 2, 41]\nTarget value: 22\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  },
+  {
+    "id": "quadratic_residue_7",
+    "structure": "quadratic_residue",
+    "difficulty": "expert",
+    "numbers": [
+      2,
+      2,
+      37,
+      3,
+      18,
+      1,
+      22,
+      -1,
+      1
+    ],
+    "operators": [
+      "+",
+      "-",
+      "*",
+      "//",
+      "%",
+      "**",
+      "abs",
+      "neg",
+      "sqrt",
+      "log2",
+      "gcd",
+      "lcm"
+    ],
+    "target": 7,
+    "min_steps": 3,
+    "max_steps": 9,
+    "structure_params": {
+      "a": 22,
+      "p": 37,
+      "legendre_symbol": -1,
+      "is_residue": false
+    },
+    "prompt": "CalcChain Task (Difficulty: expert)\n\nYour goal: Reach the target value by applying operations to the given numbers.\n\nNumbers available: [2, 2, 37, 3, 18, 1, 22, -1, 1]\nTarget value: 7\nAvailable operators: ['+', '-', '*', '//', '%', '**', 'abs', 'neg', 'sqrt', 'log2', 'gcd', 'lcm']\nStep constraints: minimum 3 steps, maximum 9 steps\n\nRules:\n1. You must use operations from the available operators list\n2. Each operation consumes its input numbers and produces a new number\n3. You can use each number from the pool only once, but intermediate results can be reused\n4. You must reach the exact target value\n5. Your solution must use between 3 and 9 operations\n\nFormat your solution as a sequence of operations, where each operation specifies:\n- The operator to use\n- The operands (by their current index in the available numbers)\n- The result\n\nExample format:\nStep 1: numbers[0] + numbers[1] = 15\nStep 2: result * numbers[2] = 45\n...\n"
+  }
+]
