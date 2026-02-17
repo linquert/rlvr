@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+# Geometric benchmark local artifacts
+geometric_stack_bench/review_pack/
+geometric_stack_bench/review_pack_samples_*/
+geometric_stack_bench/shape_catalog_review_samples/
+geometric_stack_bench/geometric_stack_dataset_review_samples*.json
+geometric_stack_bench/tmp_dataset_*.json
